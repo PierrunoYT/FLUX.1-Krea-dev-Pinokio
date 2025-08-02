@@ -1,9 +1,9 @@
 const path = require('path')
 module.exports = {
-  version: "3.7",
-  title: "<TITLE>",
-  description: "",
-  icon: "<ICON>",
+  version: "1.0.0",
+  title: "FLUX.1-Krea-dev",
+  description: "A complete Pinokio installation package for running FLUX.1-Krea-dev locally with a beautiful Gradio web interface for advanced text-to-image generation.",
+  icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
     let running = {
