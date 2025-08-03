@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://huggingface.co/spaces/black-forest-labs/FLUX.1-Krea-dev app",
+          "git clone https://huggingface.co/spaces/PierrunoYT/FLUX.1-Krea-dev app",
         ]
       }
     },
