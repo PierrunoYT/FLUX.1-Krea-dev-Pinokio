@@ -28,7 +28,8 @@ module.exports = {
         params: {
           venv: "env",
           path: "app",
-          xformers: true   // Enable xformers for memory efficiency
+          xformers: true,   // Enable xformers for memory efficiency
+          triton: true      // Enable triton for optimized kernels
         }
       }
     },
